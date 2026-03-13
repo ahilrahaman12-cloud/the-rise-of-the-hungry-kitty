@@ -83,5 +83,6 @@ Player1 = sprites.create(img`
     . . f d b d f d f . . . . . 
     . . . f f f f f f . . . . . 
     `, SpriteKind.Player)
+Player1.setStayInScreen(true)
 controller.moveSprite(Player1, 70, 70)
 Startlevel()
